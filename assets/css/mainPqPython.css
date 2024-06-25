@@ -1,0 +1,63 @@
+/* pq Python Inicio */
+
+.pqPython{
+    margin: 2rem 4rem 1rem 4rem;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: #306998;
+    box-shadow: 0 0 1rem 0.2rem rgb(0,0,0, 0.5);
+}
+.pqPython h3{
+    margin-bottom: 0.25rem;
+}
+.pqPython .mais{
+    text-align: right;
+}
+.pqPython .mais a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #FFD742;
+}
+
+/* Modal Dialog Inicio */
+
+.pqPythonDialog::backdrop{
+    background-color: rgb(0, 0, 0, 0.7);
+}
+.pqPythonDialog {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1em rgb(0, 0, 0, .8);
+    padding: 3rem;
+    margin: 4rem 4rem 2rem 4rem;
+}
+.pqPythonDialog .modalClose{
+    position: relative;
+    float: right;
+    padding: 0.4rem;
+    font-size: medium;
+    background-color: #f1262d;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.pqPythonDialog h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+.pqPythonDialog h4 {
+    margin-top: 0.5rem;
+}
+.pqPythonDialog p {
+    margin-top: 0.3rem;
+    margin-left: 1.5rem;
+}
+.pqPythonDialog p strong{
+    margin-left: 1rem;
+}
+.pqPythonDialog ul li{
+    margin-top: 0.2rem;
+    margin-left: 3rem;
+}
+
+/* Modal Dialog Fim */
+/* pq Python Fim */

@@ -1,0 +1,77 @@
+/* Carousel Fotos Inicio*/
+
+.carouselBase {
+    width: 100%;
+    height: 100%;
+    background-color: #306998;
+    padding: 1rem 0 2rem 0;
+}
+.carouselFotos {
+    position: relative;
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+}
+.carouselButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.carouselButton img {
+    width: 15px;
+}
+.carouselButtonLeft {
+    left: -30px;
+}
+.carouselButtonRight {
+    right: -30px;
+}
+.carouselContainer {
+    background: lightgreen;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.carouselTrack {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+.carouselSlide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.carouselImgs {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #FFD742;
+}
+.carouselNav {
+    background: rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    padding: 0.2rem 0;
+}
+.carouselNavIndicator {
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgb(0, 0, 0, .4);
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.carouselNavIndicator.currentSlide{
+    background: rgb(0, 0, 0, .8);
+}
+
+/* Carousel Fotos Fim*/

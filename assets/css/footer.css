@@ -1,0 +1,19 @@
+footer hr {
+    clear: both;
+}
+
+footer {
+    background-color: #efefef;
+    opacity: 1;
+    height: 3rem;
+    
+}
+footer p {
+    padding-bottom: 1rem;
+}
+footer p,
+footer h3 {
+    text-align: center;
+    margin-top: 0.8rem;
+    
+}

@@ -1,0 +1,51 @@
+/* Perguntas Frequentes Inicio */
+
+.tituloPerguntas {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #306998;
+    padding: 0.3rem;
+    color: #FFD742;
+    box-shadow: 0 0 1rem 1rem rgb(0,0,0, 0.6);
+    text-shadow: 1px 1px 2px #000;
+}
+.bgPf {
+    background-color: #306998;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+}
+.perguntasFrequentes {
+    margin: 0 auto;
+    padding: 0;
+    /* width: fit-content; */
+    width: 80%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.pergunta {
+    display: block;
+    padding: 0.7rem;
+    color: #FFD742;
+    height: fit-content;
+    text-shadow: 1px 1px 2px #000;
+    cursor: pointer;
+    background-color: rgba(120, 120, 120, 0.5);
+}
+.pergunta:hover {
+    background-color: rgba(120, 120, 120, 1);
+}
+.resposta {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+}
+.hiddenResp{
+    display: none;
+}
+
+/* Perguntas Frequentes Fim */

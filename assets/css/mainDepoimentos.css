@@ -1,0 +1,58 @@
+/* Depoimentos Inicio */
+.tituloDep{
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #306998;
+    padding: 0.3rem;
+    color: #FFD742;
+    box-shadow: 0 0 1rem 1rem rgb(0,0,0, 0.6);
+    text-shadow: 1px 1px 2px #000;
+    padding-top: 1.5rem;
+}
+
+.depoimentos {
+    margin: 0.8rem auto;
+    width: 100%;
+    padding: 2rem;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+}
+.depoSlide {
+    padding: 40px 60px;
+    cursor: grab;
+}
+.depoSlide:active {
+    cursor: grabbing;
+}
+.depoIcon {
+    width: 50px;
+    opacity: 0.5;
+}
+
+.depoTxt{
+    font-weight: 300;
+    margin-bottom: 1rem;
+    text-indent: 15px;
+}
+
+.personImg, .infoPerson {
+    display: inline-block;
+    vertical-align: middle;
+}
+.personImg {
+    width: 80px;
+    height: 80px;
+}
+.infoPerson {
+    margin-left: 0.5rem;
+}
+.nomePerson {
+    font-weight: 600;
+}
+.funcPerson {
+    font-size: small;
+}
+
+/* Depoimentos Fim */

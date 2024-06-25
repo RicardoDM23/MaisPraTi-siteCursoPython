@@ -1,0 +1,35 @@
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --line-height: 1.5rem;
+    --primary-color: #79B4B7;
+    --primaryHover-color: #458184;
+    --secondary-color: #FEFBF3;
+    --tertiary-color: #9D9D9D;
+
+}
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.4s ease-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efefef;
+    /* background: url(../images/bg.webp);
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+    /* opacity: 0.95; */
+}

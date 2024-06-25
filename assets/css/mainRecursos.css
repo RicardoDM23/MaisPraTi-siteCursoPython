@@ -1,0 +1,55 @@
+/*Recursos Inicio*/
+
+.recursos h3 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #306998;
+    padding: 0.5rem 0.3rem 0.3rem 0.3rem;
+    color: #FFD742;
+    text-shadow: 1px 1px 2px #000;
+}
+.recursos {
+    position: relative;
+}
+.bgRec {
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+    padding: 5rem;
+    background: url("../images/programer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all ease-in;
+}
+.recursosContent {
+    margin: 0 auto;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.recContentItem {
+    margin: 1rem;
+}
+.recContentItem:hover {
+    color: #FFD742;
+    background-color: rgb(0,0,0, 0.6);
+    text-shadow: 1px 1px 1px #000;
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: large;
+}
+.recImgDiv{
+    float: left;
+    margin-right: 1rem;
+    width: 50px;
+    height: 50px;
+}
+.recImgDiv img {
+    width: 100%;
+}
+
+/* Recuersos Fim */

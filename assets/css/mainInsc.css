@@ -1,0 +1,58 @@
+.inscDialog{
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1em rgb(0, 0, 0, .8);
+    padding: 3rem;
+    margin:  auto;
+}
+.inscDialogForm {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.inscDialogLabel {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.inscDialogForm input,
+.inscDialogForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.inscDialogBtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 115px;
+}
+.inscDialogBtn:hover {
+    background-color: #45a049;
+}
+.closeDialogBtn{
+    padding: 10px 20px;
+    background-color: #f1262d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-left: 0.5rem;
+    width: 115px;
+}
+.closeDialogBtn:hover {
+    background-color: #e71017;
+}
+.inscDialogError {
+    color: red;
+    margin-bottom: 15px;
+}

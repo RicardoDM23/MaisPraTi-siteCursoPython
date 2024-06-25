@@ -1,0 +1,89 @@
+header {
+    padding: 0.5rem 0;
+    height: 6rem;
+    background-color: #bbbbbb;
+    box-shadow: 0 0 1rem 0.2rem rgb(0,0,0, 0.5);
+    text-shadow: 1px 1px 2px #000;
+}
+#letraLogo{
+    color: #306998;
+}
+#letraComun {
+    color: #000;
+    font-weight: 1100;
+}
+.nomeLogo {
+    display: block;
+    float: left;
+    color: #FFD742;
+    margin: 1rem 0 0 2rem;
+    font-weight: 900;
+}
+.logoIcon{
+    width: 3.4rem;
+    height: 4rem;
+    float: left;
+    display: block;
+}
+.logo{
+    display: block;
+    float: left;
+    margin: 0 0 0 5rem;
+}
+.btnHeader{
+    float: right;
+}
+.btnHeader .btn {
+    text-decoration: none;
+    margin: 1rem 2rem 0 0;
+    display: inline-block;
+    padding: 0.8rem 0.5rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: #fff;
+}
+.red {
+    background-color: red;
+}
+.red:hover {
+    background-color: #f1262d;
+    color: #fff;
+}
+
+.btnHeader{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .btnHeader{
+        display: none;
+    }
+    .btnInscMain{
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 420px){
+
+    .nomeLogo{
+        display: none;
+    }
+
+    .logoIcon{
+
+        margin-left: 40%;
+        margin-right: 45%;
+    }
+    
+    .logo{
+        width: 100%;
+        margin: 0;
+    }
+}
+
